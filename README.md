@@ -9,7 +9,9 @@ Example on a worse case when the phase is pi radians of offset.
 
 ![image](https://github.com/angrram/3ph_pll/assets/128910194/d4753abb-f6c8-4929-9be5-ff9a256c85fd)
 
-Angle Output of the module
+Angle Output of the module.
+
+
 ![image](https://github.com/angrram/3ph_pll/assets/128910194/46e1418f-76f1-4def-92e0-8f7b7807e2ae)
 
 
