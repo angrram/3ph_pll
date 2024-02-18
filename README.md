@@ -2,7 +2,7 @@
 
 -Phase Swap Detection.
 
--Quality of Votlages Detection.
+-Quality of Voltages Detection.
 
 
 Implementation on a Matlab Live Script.
