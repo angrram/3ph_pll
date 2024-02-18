@@ -5,7 +5,7 @@
 -Quality of Voltages Detection.
 
 
-Implementation on a Matlab Live Script.
+Implementation on a Matlab Live Script. C code TBD
 
 ![image](https://github.com/angrram/3ph_pll/assets/128910194/d00f35f6-ec75-408a-b1b8-1f96d0c911b4)
 
