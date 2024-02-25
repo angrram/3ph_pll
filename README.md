@@ -3,7 +3,7 @@
 -Phase Swap Detection.
 -Fixed-Point.
 -Quality of Voltages Detection.
-
+-.slx file could be open with Matlab 2023a, for lower matlab version dm ;).
 
 Implementation on a Matlab Live Script.
 
