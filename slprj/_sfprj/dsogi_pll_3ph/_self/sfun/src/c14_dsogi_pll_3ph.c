@@ -126,8 +126,8 @@ static void mdl_terminate_c14_dsogi_pll_3ph(SFc14_dsogi_pll_3phInstanceStruct
   *chartInstance)
 {
   const emlrtLocationLoggingFileInfoType c14_emlrtLocationLoggingFileInfo = {
-    "#dsogi_pll_3ph:475",              /* mexFileName */
-    "Sun May 26 15:34:38 2024",        /* timestamp */
+    "#dsogi_pll_3ph:503:2",            /* mexFileName */
+    "Sun May 26 16:51:39 2024",        /* timestamp */
     "",                                /* buildDir */
     1,                                 /* numFcns */
     256                                /* numHistogramBins */
@@ -489,13 +489,13 @@ static void mdl_terminate_c14_dsogi_pll_3ph(SFc14_dsogi_pll_3phInstanceStruct
   const int32_T c14_emlrtLocationLoggingFieldCounts[60] = { 0 };
 
   if (chartInstance->c14_emlrtLocLogSimulated) {
-    emlrtLocationLoggingClearLog("#dsogi_pll_3ph:475");
+    emlrtLocationLoggingClearLog("#dsogi_pll_3ph:503:2");
     emlrtLocationLoggingPushLog(&c14_emlrtLocationLoggingFileInfo,
       &c14_emlrtLocationLoggingFunctionInfoTable[0],
       &chartInstance->c14_emlrtLocationLoggingDataTables[0],
       &c14_emlrtLocationInfo[0], NULL, 0U, &c14_emlrtLocationLoggingFieldCounts
       [0], NULL);
-    addResultsToFPTRepository("#dsogi_pll_3ph:475");
+    addResultsToFPTRepository("#dsogi_pll_3ph:503:2");
   }
 }
 

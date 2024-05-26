@@ -1,9 +1,9 @@
 /* Include files */
 
 #include "dsogi_pll_3ph_sfun.h"
+#include "c1_dsogi_pll_3ph.h"
 #include "c10_dsogi_pll_3ph.h"
 #include "c14_dsogi_pll_3ph.h"
-#include "c16_dsogi_pll_3ph.h"
 #include "c17_dsogi_pll_3ph.h"
 #include "c18_dsogi_pll_3ph.h"
 #include "c19_dsogi_pll_3ph.h"
@@ -39,6 +39,11 @@ void dsogi_pll_3ph_terminator(void)
 unsigned int sf_dsogi_pll_3ph_method_dispatcher(SimStruct *simstructPtr,
   unsigned int chartFileNumber, const char* specsCksum, int_T method, void *data)
 {
+  if (chartFileNumber==1) {
+    c1_dsogi_pll_3ph_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
   if (chartFileNumber==10) {
     c10_dsogi_pll_3ph_method_dispatcher(simstructPtr, method, data);
     return 1;
@@ -46,11 +51,6 @@ unsigned int sf_dsogi_pll_3ph_method_dispatcher(SimStruct *simstructPtr,
 
   if (chartFileNumber==14) {
     c14_dsogi_pll_3ph_method_dispatcher(simstructPtr, method, data);
-    return 1;
-  }
-
-  if (chartFileNumber==16) {
-    c16_dsogi_pll_3ph_method_dispatcher(simstructPtr, method, data);
     return 1;
   }
 
@@ -135,6 +135,13 @@ unsigned int sf_dsogi_pll_3ph_process_check_sum_call( int nlhs, mxArray * plhs[]
       unsigned int chartFileNumber;
       chartFileNumber = (unsigned int)mxGetScalar(prhs[2]);
       switch (chartFileNumber) {
+       case 1:
+        {
+          extern void sf_c1_dsogi_pll_3ph_get_check_sum(mxArray *plhs[]);
+          sf_c1_dsogi_pll_3ph_get_check_sum(plhs);
+          break;
+        }
+
        case 10:
         {
           extern void sf_c10_dsogi_pll_3ph_get_check_sum(mxArray *plhs[]);
@@ -146,13 +153,6 @@ unsigned int sf_dsogi_pll_3ph_process_check_sum_call( int nlhs, mxArray * plhs[]
         {
           extern void sf_c14_dsogi_pll_3ph_get_check_sum(mxArray *plhs[]);
           sf_c14_dsogi_pll_3ph_get_check_sum(plhs);
-          break;
-        }
-
-       case 16:
-        {
-          extern void sf_c16_dsogi_pll_3ph_get_check_sum(mxArray *plhs[]);
-          sf_c16_dsogi_pll_3ph_get_check_sum(plhs);
           break;
         }
 
@@ -280,6 +280,19 @@ unsigned int sf_dsogi_pll_3ph_get_eml_resolved_functions_info( int nlhs, mxArray
     instanceChksum[(sizeof(instanceChksum)/sizeof(char)-1)] = '\0';
     chartFileNumber = (unsigned int)mxGetScalar(prhs[1]);
     switch (chartFileNumber) {
+     case 1:
+      {
+        if (strcmp(instanceChksum, "sTKqLrQKrSjF53fP0TbntfF") == 0) {
+          extern const mxArray
+            *sf_c1_dsogi_pll_3ph_get_eml_resolved_functions_info(void);
+          mxArray *persistentMxArray = (mxArray *)
+            sf_c1_dsogi_pll_3ph_get_eml_resolved_functions_info();
+          plhs[0] = mxDuplicateArray(persistentMxArray);
+          mxDestroyArray(persistentMxArray);
+          break;
+        }
+      }
+
      case 10:
       {
         if (strcmp(instanceChksum, "s1DSy6mWe9Uvzk5HGZPwvVE") == 0) {
@@ -300,19 +313,6 @@ unsigned int sf_dsogi_pll_3ph_get_eml_resolved_functions_info( int nlhs, mxArray
             *sf_c14_dsogi_pll_3ph_get_eml_resolved_functions_info(void);
           mxArray *persistentMxArray = (mxArray *)
             sf_c14_dsogi_pll_3ph_get_eml_resolved_functions_info();
-          plhs[0] = mxDuplicateArray(persistentMxArray);
-          mxDestroyArray(persistentMxArray);
-          break;
-        }
-      }
-
-     case 16:
-      {
-        if (strcmp(instanceChksum, "sTKqLrQKrSjF53fP0TbntfF") == 0) {
-          extern const mxArray
-            *sf_c16_dsogi_pll_3ph_get_eml_resolved_functions_info(void);
-          mxArray *persistentMxArray = (mxArray *)
-            sf_c16_dsogi_pll_3ph_get_eml_resolved_functions_info();
           plhs[0] = mxDuplicateArray(persistentMxArray);
           mxDestroyArray(persistentMxArray);
           break;
@@ -484,6 +484,15 @@ unsigned int sf_dsogi_pll_3ph_third_party_uses_info( int nlhs, mxArray * plhs[],
     unsigned int chartFileNumber;
     chartFileNumber = (unsigned int)mxGetScalar(prhs[1]);
     switch (chartFileNumber) {
+     case 1:
+      {
+        if (strcmp(tpChksum, "sTKqLrQKrSjF53fP0TbntfF") == 0) {
+          extern mxArray *sf_c1_dsogi_pll_3ph_third_party_uses_info(void);
+          plhs[0] = sf_c1_dsogi_pll_3ph_third_party_uses_info();
+          break;
+        }
+      }
+
      case 10:
       {
         if (strcmp(tpChksum, "s1DSy6mWe9Uvzk5HGZPwvVE") == 0) {
@@ -498,15 +507,6 @@ unsigned int sf_dsogi_pll_3ph_third_party_uses_info( int nlhs, mxArray * plhs[],
         if (strcmp(tpChksum, "sTKqLrQKrSjF53fP0TbntfF") == 0) {
           extern mxArray *sf_c14_dsogi_pll_3ph_third_party_uses_info(void);
           plhs[0] = sf_c14_dsogi_pll_3ph_third_party_uses_info();
-          break;
-        }
-      }
-
-     case 16:
-      {
-        if (strcmp(tpChksum, "sTKqLrQKrSjF53fP0TbntfF") == 0) {
-          extern mxArray *sf_c16_dsogi_pll_3ph_third_party_uses_info(void);
-          plhs[0] = sf_c16_dsogi_pll_3ph_third_party_uses_info();
           break;
         }
       }
@@ -629,6 +629,15 @@ unsigned int sf_dsogi_pll_3ph_jit_fallback_info( int nlhs, mxArray * plhs[], int
     unsigned int chartFileNumber;
     chartFileNumber = (unsigned int)mxGetScalar(prhs[1]);
     switch (chartFileNumber) {
+     case 1:
+      {
+        if (strcmp(tpChksum, "sTKqLrQKrSjF53fP0TbntfF") == 0) {
+          extern mxArray *sf_c1_dsogi_pll_3ph_jit_fallback_info(void);
+          plhs[0] = sf_c1_dsogi_pll_3ph_jit_fallback_info();
+          break;
+        }
+      }
+
      case 10:
       {
         if (strcmp(tpChksum, "s1DSy6mWe9Uvzk5HGZPwvVE") == 0) {
@@ -643,15 +652,6 @@ unsigned int sf_dsogi_pll_3ph_jit_fallback_info( int nlhs, mxArray * plhs[], int
         if (strcmp(tpChksum, "sTKqLrQKrSjF53fP0TbntfF") == 0) {
           extern mxArray *sf_c14_dsogi_pll_3ph_jit_fallback_info(void);
           plhs[0] = sf_c14_dsogi_pll_3ph_jit_fallback_info();
-          break;
-        }
-      }
-
-     case 16:
-      {
-        if (strcmp(tpChksum, "sTKqLrQKrSjF53fP0TbntfF") == 0) {
-          extern mxArray *sf_c16_dsogi_pll_3ph_jit_fallback_info(void);
-          plhs[0] = sf_c16_dsogi_pll_3ph_jit_fallback_info();
           break;
         }
       }
@@ -774,6 +774,17 @@ unsigned int sf_dsogi_pll_3ph_get_post_codegen_info( int nlhs, mxArray * plhs[],
     unsigned int chartFileNumber;
     chartFileNumber = (unsigned int)mxGetScalar(prhs[1]);
     switch (chartFileNumber) {
+     case 1:
+      {
+        if (strcmp(tpChksum, "sTKqLrQKrSjF53fP0TbntfF") == 0) {
+          const char *sf_c1_dsogi_pll_3ph_get_post_codegen_info(void);
+          const char* encoded_post_codegen_info =
+            sf_c1_dsogi_pll_3ph_get_post_codegen_info();
+          plhs[0] = sf_mex_decode(encoded_post_codegen_info);
+          break;
+        }
+      }
+
      case 10:
       {
         if (strcmp(tpChksum, "s1DSy6mWe9Uvzk5HGZPwvVE") == 0) {
@@ -791,17 +802,6 @@ unsigned int sf_dsogi_pll_3ph_get_post_codegen_info( int nlhs, mxArray * plhs[],
           const char *sf_c14_dsogi_pll_3ph_get_post_codegen_info(void);
           const char* encoded_post_codegen_info =
             sf_c14_dsogi_pll_3ph_get_post_codegen_info();
-          plhs[0] = sf_mex_decode(encoded_post_codegen_info);
-          break;
-        }
-      }
-
-     case 16:
-      {
-        if (strcmp(tpChksum, "sTKqLrQKrSjF53fP0TbntfF") == 0) {
-          const char *sf_c16_dsogi_pll_3ph_get_post_codegen_info(void);
-          const char* encoded_post_codegen_info =
-            sf_c16_dsogi_pll_3ph_get_post_codegen_info();
           plhs[0] = sf_mex_decode(encoded_post_codegen_info);
           break;
         }
@@ -945,6 +945,15 @@ unsigned int sf_dsogi_pll_3ph_updateBuildInfo_args_info( int nlhs, mxArray *
     unsigned int chartFileNumber;
     chartFileNumber = (unsigned int)mxGetScalar(prhs[1]);
     switch (chartFileNumber) {
+     case 1:
+      {
+        if (strcmp(tpChksum, "sTKqLrQKrSjF53fP0TbntfF") == 0) {
+          extern mxArray *sf_c1_dsogi_pll_3ph_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c1_dsogi_pll_3ph_updateBuildInfo_args_info();
+          break;
+        }
+      }
+
      case 10:
       {
         if (strcmp(tpChksum, "s1DSy6mWe9Uvzk5HGZPwvVE") == 0) {
@@ -959,15 +968,6 @@ unsigned int sf_dsogi_pll_3ph_updateBuildInfo_args_info( int nlhs, mxArray *
         if (strcmp(tpChksum, "sTKqLrQKrSjF53fP0TbntfF") == 0) {
           extern mxArray *sf_c14_dsogi_pll_3ph_updateBuildInfo_args_info(void);
           plhs[0] = sf_c14_dsogi_pll_3ph_updateBuildInfo_args_info();
-          break;
-        }
-      }
-
-     case 16:
-      {
-        if (strcmp(tpChksum, "sTKqLrQKrSjF53fP0TbntfF") == 0) {
-          extern mxArray *sf_c16_dsogi_pll_3ph_updateBuildInfo_args_info(void);
-          plhs[0] = sf_c16_dsogi_pll_3ph_updateBuildInfo_args_info();
           break;
         }
       }
