@@ -1,12 +1,6 @@
 
 #  Three phase (3-PH) DSOGI Phase Lock Loop (PLL) 
 
--Phase Swap Detection.
-
--Fixed-Point.
-
--Phase Fault Detection.
-
 
 
 ## Dependencies
