@@ -6,7 +6,7 @@ CPU = AMD64
 
 MODEL     = dsogi_pll_3ph
 TARGET      = sfun
-MODULE_SRCS   = c1_dsogi_pll_3ph.c c10_dsogi_pll_3ph.c c14_dsogi_pll_3ph.c c17_dsogi_pll_3ph.c c18_dsogi_pll_3ph.c c19_dsogi_pll_3ph.c c20_dsogi_pll_3ph.c c21_dsogi_pll_3ph.c c22_dsogi_pll_3ph.c c23_dsogi_pll_3ph.c c24_dsogi_pll_3ph.c c25_dsogi_pll_3ph.c c26_dsogi_pll_3ph.c half_type.c
+MODULE_SRCS   = c1_dsogi_pll_3ph.c c2_dsogi_pll_3ph.c c10_dsogi_pll_3ph.c c17_dsogi_pll_3ph.c c18_dsogi_pll_3ph.c c19_dsogi_pll_3ph.c c20_dsogi_pll_3ph.c c21_dsogi_pll_3ph.c c22_dsogi_pll_3ph.c c23_dsogi_pll_3ph.c c24_dsogi_pll_3ph.c c25_dsogi_pll_3ph.c c26_dsogi_pll_3ph.c half_type.c
 MODEL_SRC  = dsogi_pll_3ph_sfun.c
 MODEL_REG = dsogi_pll_3ph_sfun_registry.c
 MAKEFILE    = dsogi_pll_3ph_sfun.mak

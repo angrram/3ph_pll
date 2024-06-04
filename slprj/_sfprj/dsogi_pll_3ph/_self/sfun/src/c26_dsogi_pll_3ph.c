@@ -125,8 +125,8 @@ static void mdl_terminate_c26_dsogi_pll_3ph(SFc26_dsogi_pll_3phInstanceStruct
   *chartInstance)
 {
   const emlrtLocationLoggingFileInfoType c26_emlrtLocationLoggingFileInfo = {
-    "#dsogi_pll_3ph:485",              /* mexFileName */
-    "Sun May 26 16:51:41 2024",        /* timestamp */
+    "#dsogi_pll_3ph:709",              /* mexFileName */
+    "Tue Jun  4 19:57:58 2024",        /* timestamp */
     "",                                /* buildDir */
     1,                                 /* numFcns */
     256                                /* numHistogramBins */
@@ -163,13 +163,13 @@ static void mdl_terminate_c26_dsogi_pll_3ph(SFc26_dsogi_pll_3phInstanceStruct
   const int32_T c26_emlrtLocationLoggingFieldCounts[3] = { 0, 0, 0 };
 
   if (chartInstance->c26_emlrtLocLogSimulated) {
-    emlrtLocationLoggingClearLog("#dsogi_pll_3ph:485");
+    emlrtLocationLoggingClearLog("#dsogi_pll_3ph:709");
     emlrtLocationLoggingPushLog(&c26_emlrtLocationLoggingFileInfo,
       &c26_emlrtLocationLoggingFunctionInfoTable[0],
       &chartInstance->c26_emlrtLocationLoggingDataTables[0],
       &c26_emlrtLocationInfo[0], NULL, 0U, &c26_emlrtLocationLoggingFieldCounts
       [0], NULL);
-    addResultsToFPTRepository("#dsogi_pll_3ph:485");
+    addResultsToFPTRepository("#dsogi_pll_3ph:709");
   }
 }
 
@@ -539,10 +539,10 @@ static void init_simulink_io_address(SFc26_dsogi_pll_3phInstanceStruct
 /* SFunction Glue Code */
 void sf_c26_dsogi_pll_3ph_get_check_sum(mxArray *plhs[])
 {
-  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(2634541826U);
-  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(2660772021U);
-  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(3026964974U);
-  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(107184084U);
+  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(3528266458U);
+  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(1810714224U);
+  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(2062965006U);
+  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(1611881739U);
 }
 
 mxArray *sf_c26_dsogi_pll_3ph_third_party_uses_info(void)
@@ -595,7 +595,7 @@ static const mxArray *sf_get_sim_state_info_c26_dsogi_pll_3ph(void)
 
 static const char* sf_get_instance_specialization(void)
 {
-  return "sp7sn5G6sblgmMxDSlHKcD";
+  return "sWtUC374OiNNEius16XhAv";
 }
 
 static void sf_opaque_initialize_c26_dsogi_pll_3ph(void *chartInstanceVar)
@@ -696,31 +696,31 @@ const char* sf_c26_dsogi_pll_3ph_get_post_codegen_info(void)
 {
   int i;
   const char* encStrCodegen [22] = {
-    "eNrtWN1u40QUdqJS7YqlKhICoSKxF1xwgwRdbZcLBG3z041oaITTIu1NNLFP4lHGM975yQ/iFZB",
-    "4Aq644A7xALwHz8AVl3vJGdtNgxsST8LCLsKV64ztb75zzpy/sVdptT089vD87m3P28XrHTyrXn",
-    "a8ko8rC2d2f8f7JB9/86rnBSKEIXDfDAZ06rkd3MQdIkmsPPeDkxi+BCWY0VTwFh+I8ljKByCBB",
-    "zhBIqR24lU0NozyUdPwwDKrryIaRH4kDAtPcUISXnA2+yvexOgOMtaphEA3AUIdSWGGUZOR4Wor",
-    "SD2pRRCMlImdbaVA+yaxqqq2YZomDBpTCFpcaYJWUGv09TXRUNNTNyNbfZV/jRZxwijh5W0dEeV",
-    "Dgt6h4TIJ8f+F0Wi9UtggIlKfQkTGoM7pKGUXHEqxU4Vv9yknWkhKWCNmNTtbSX07DHVsY0gw1z",
-    "VCfU8lkFEiKNeOAeE30c4NTvoM6tA3Q0deH54aGw1XFCYg3dZ3UBNjkGQIF9xN5nSNGtPUKeexV",
-    "BKraQxXRJ4E6LsKQre8gUGnfILuCF2cxgkLqYlbqivpGH3DNde1bPhvlOtMnHm/2gib8jbG4OxX",
-    "c95mwGuEMeWG7YrkHMbAUv460WQDbMbvAFaKhl2B3mGzjWPGMpxiJOTYmuAhLe+V4wIqLWxfYJE",
-    "qAaexDQMI0cxz0ecTrYsjo7SIa5hy6ufnJfluY1tcgxyQAErXGEmoAhQ49StH3pAqG0iIRivpVM",
-    "vSM2QxuBHUUwPD6xMhR2hj12J2YysbCW5oCIeYmDWkSa6B3n1FmCkpc6yGGD/oHpcKs6wbL2Jt/",
-    "GwEDkgQQWgrJ2XQxjyLE5RdYmVL/glqO6Z6VgcVSJqUjSSDCR2LrrVSd5bAJR9xMeFNKWI/77xW",
-    "+BUAZg0iOeXDUyzhctZE4ctJLeFpN83urk2OtTPRjPStb5wBx2podbVdAwkwqhocW2QUaBusT7/",
-    "GJoYrqjQW6llW6rO6Z/v3x95N/76zpH9/faF/38/HweFRL1RiSHsJY70HSZQ/t/N9uDDfvRL7gT",
-    "I47xbuhu/6+v4CvrKE11u4FvnuVv/8frXAV8W/SiXDHS/gXivw7BRwu7nNxj/8dPbLe98efH8k7",
-    "8CTn39bx1+5xV9Jf1vcj1W3/dZePn7num+aZ+nxrURWxh/eLPiDHavkkeIPz45Unw3j9rTus8ef",
-    "B/VsvmeV1fJWC/Je379vezUM4jQnyKAV5vs2OyYm20/Y+T9ekHd3jT3uLviT5/3+2Xb4N46L67i",
-    "zBr+Pv4KC327Of/94O3zG31kj/0FhvQ/S3r1HbIaG3vJMsFcyzlb5uSvO+4dxL4uc/9vl+etXps",
-    "5VN8RVnmNd/Ttx2+rnWr9f9vdX1Q2v8P7+C6zHqnzv0se9aHr96rn1We/m40/n3xFqEWXhkp1M/",
-    "hg3G4NlT/8j/v3M0X5v5eOGtV/+wfnJgxNO2Ay3LtnWML/dkfa74fyRBKKW7w//jXpyfT1e01fd",
-    "K8S3HU8oD8VEffDR4cPDberTH0tnGPQ=",
+    "eNrtWE1v40QYdqJSsWKpioQWoUViL0hckNgWdjmg3bb5gEj9iHDaRVyiqf0mHmU8450Pp0HcOHK",
+    "AP4HEhRu/gF/ABYkTv4Hj3uAd20mDGxJPysIuwpXrjO1nnvd95/0ae7XOkYfHFp7fvO55m3h9Ec",
+    "+6lx8vFOPa3Jnf3/A+LMZfvOR5gQhhCNw3gwG98NwObuIukSRWnvvBSQyfgBLMaCp4hw9EdSzlA",
+    "5DAA5wgEVI78SoaG0b5qG14YJnVo4gGkR8Jw8IDnJCEJ5xN/oo3MbqLjE0qIdBtgFBHUphh1GZk",
+    "uNwKUo8bEQQjZWJnWynQvkmsqurIME0TBq0LCDpcaYJWUCv09TXR0NAXbka2+ip/ihZxwijh1W0",
+    "dEeVDgt6h4TQJ8f+J0Wi9StggIlIfQERSUId0lLELDpXYqcK3zyknWkhKWCtmDTtbRX27DHU8wp",
+    "BgrmuE+h5IIKNEUK4dA8Jvo51bnJwzaMK5GTry+vDY2Gg4ozAG6ba+g4ZIQZIhnHA3mbM1al1kT",
+    "jmLpYpYTWM4I3I/QN9VELrlDQw65RN0R+jhNE5YyEzcUT1JU/QN11zXseG/Vq4zce79ai1sxttK",
+    "wdmvZrztgDcIY8oN2xPJIaTAMv4m0WQNbM7vAFaKhj2B3mGzjWPGMpxiJBTYhuAhre6VaQmVFbZ",
+    "jLFIV4DS2YQAhmnkm+myiVXFklBZxA1NO8/CwIt9VbIdrkAMSQOUaIwlVgAJnfuXIG1JlAwnRaC",
+    "WdaVl5hjwG14J6amB4cyzkCG3sWswubWUjwQ0N4RATs4YsybXQu88IMxVljtUQ4wfd41RhlnXjR",
+    "ayNn7XAAQkiCG3lpAyOMM/iBFWXWNmSv4/aplRPmqACSZOqkWQwoWPRtVbqTRI45SMuxrwtRewX",
+    "ndcSvwLArEEkp3x4gCVcTtoofDWpJTzuZdndtcmxdiaakXPrGx8Bx2podbVdAwkwqlocW2QU6Dp",
+    "Yn36OTQxXVGks1JO81Od1z/bvH3uX/fvGgv79lbn+fbsYBzv3+qESQ9pPGOvvJlHx3M737tx8Ny",
+    "vsB6rgvCu4S77p9e05fG0Brzd3LfPdqP/5/XqJr45/tVqO25vDvVzi2SjhNgub/fzV79/fuv/Wt",
+    "/GX6U+/fv3jD6v4a1f4a9lvi/uu7rbf2irGb0z7plmWTq8ksir+cKvkD3asHunTxu79907o8XGL",
+    "GnX33qfRfprP96S2XN56Sd7p/Tu2V8MgznKCDDphsW+zY2Ly/YSd/4M5eTdX2OPGnD953m8Pr4d",
+    "/da+8jhsr8Nv4Kyj57fr8d/auh8/5uyvkv11a79tZ794nNkNDf3Em2KoYZ8v83BXn/cO450XO/+",
+    "3y9PWrUufqa+JqT7Gu/p246+rnWr+f9/eX1Q2v9P72M6zHsnzv0sc9a3r94rn1WW8W4wez7wiNi",
+    "LJwwU6meIybjcGip/8R/37iaL/XinHL2q/44PzZ7j4nbIJbl3xrWNzuSvvdcPZIAlGL94f/Rj2Z",
+    "XvdW9FU3S/Ftx2PKQzFW79zdeX/nOvXpD7v8Gmc=",
     ""
   };
 
-  static char newstr [1533] = "";
+  static char newstr [1541] = "";
   newstr[0] = '\0';
   for (i = 0; i < 22; i++) {
     strcat(newstr, encStrCodegen[i]);
@@ -733,10 +733,10 @@ static void mdlSetWorkWidths_c26_dsogi_pll_3ph(SimStruct *S)
 {
   const char* newstr = sf_c26_dsogi_pll_3ph_get_post_codegen_info();
   sf_set_work_widths(S, newstr);
-  ssSetChecksum0(S,(1202693238U));
-  ssSetChecksum1(S,(462234813U));
-  ssSetChecksum2(S,(141702814U));
-  ssSetChecksum3(S,(3937491557U));
+  ssSetChecksum0(S,(2919205845U));
+  ssSetChecksum1(S,(2770679574U));
+  ssSetChecksum2(S,(3497427821U));
+  ssSetChecksum3(S,(3032649694U));
 }
 
 static void mdlRTW_c26_dsogi_pll_3ph(SimStruct *S)

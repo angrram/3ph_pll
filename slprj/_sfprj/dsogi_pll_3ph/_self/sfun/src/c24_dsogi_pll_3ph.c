@@ -125,8 +125,8 @@ static void mdl_terminate_c24_dsogi_pll_3ph(SFc24_dsogi_pll_3phInstanceStruct
   *chartInstance)
 {
   const emlrtLocationLoggingFileInfoType c24_emlrtLocationLoggingFileInfo = {
-    "#dsogi_pll_3ph:483",              /* mexFileName */
-    "Sun May 26 16:51:41 2024",        /* timestamp */
+    "#dsogi_pll_3ph:707",              /* mexFileName */
+    "Tue Jun  4 19:57:58 2024",        /* timestamp */
     "",                                /* buildDir */
     1,                                 /* numFcns */
     256                                /* numHistogramBins */
@@ -203,13 +203,13 @@ static void mdl_terminate_c24_dsogi_pll_3ph(SFc24_dsogi_pll_3phInstanceStruct
   const int32_T c24_emlrtLocationLoggingFieldCounts[10] = { 0 };
 
   if (chartInstance->c24_emlrtLocLogSimulated) {
-    emlrtLocationLoggingClearLog("#dsogi_pll_3ph:483");
+    emlrtLocationLoggingClearLog("#dsogi_pll_3ph:707");
     emlrtLocationLoggingPushLog(&c24_emlrtLocationLoggingFileInfo,
       &c24_emlrtLocationLoggingFunctionInfoTable[0],
       &chartInstance->c24_emlrtLocationLoggingDataTables[0],
       &c24_emlrtLocationInfo[0], NULL, 0U, &c24_emlrtLocationLoggingFieldCounts
       [0], NULL);
-    addResultsToFPTRepository("#dsogi_pll_3ph:483");
+    addResultsToFPTRepository("#dsogi_pll_3ph:707");
   }
 }
 
@@ -649,10 +649,10 @@ static void init_simulink_io_address(SFc24_dsogi_pll_3phInstanceStruct
 /* SFunction Glue Code */
 void sf_c24_dsogi_pll_3ph_get_check_sum(mxArray *plhs[])
 {
-  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(3828122805U);
-  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(2888584883U);
-  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(1247164685U);
-  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(1149295867U);
+  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(3426633772U);
+  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(106562354U);
+  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(1527619629U);
+  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(1464330189U);
 }
 
 mxArray *sf_c24_dsogi_pll_3ph_third_party_uses_info(void)
@@ -706,7 +706,7 @@ static const mxArray *sf_get_sim_state_info_c24_dsogi_pll_3ph(void)
 
 static const char* sf_get_instance_specialization(void)
 {
-  return "sru64mBTO8ThPJw61ql2WiE";
+  return "sT855z1ZyIs3fiRAIDjjHQE";
 }
 
 static void sf_opaque_initialize_c24_dsogi_pll_3ph(void *chartInstanceVar)
@@ -807,31 +807,31 @@ const char* sf_c24_dsogi_pll_3ph_get_post_codegen_info(void)
 {
   int i;
   const char* encStrCodegen [22] = {
-    "eNrtWMuP20QYd9Jly4qyKhISEkWi4sQF0W5L1UNFd/OCoF0S4exWcAmz9pd4lPGMdx55IP4B/jP",
-    "+AtQbZ27c4Mg3jpNNvSHxJC1tUUdynLH9+17+nvZKzRMP1z4eP37oebt4fhuPsjddb2X70sIxvb",
-    "7jPcr2P7/jeYEIoQ/cN70eHXtui5u4TSSJlee+OInhO1CCGU0Fb/KeKI6lvAcSeIAEEiG1E19FY",
-    "8MoHzQMDyxn9SSiQeRHwrCwggRJ2OJs8m98E6PbyLFGJQS6ARDqSArTjxqM9FdbQepRNYJgoEzs",
-    "bCsF2jeJVVWdGKZpwqA+hqDJlSZoBbVGX18TDVU9djOy1Vf5M7SIE0YJL27riCgfEvQODadJiL8",
-    "to9F6hbBBRKSuQESGoI7pIOUuOBTiThU+fU450UJSwuoxq1pqBfVtM9TxBEOCub4j1LcigQwSQb",
-    "l2DAi/gXauc3LOoAbnpu/I14cLY6PhjMIIpNv77VXFECTpQ4u7yZy+o/o4dcp5LBXEahrDGZFHA",
-    "fqugtAtb2DQKZ+gO0IHyThhITVxU3UkHaJvuOa6pg3/jXKdiaferzbCpnzrQ3D2qznfRsCrhDHl",
-    "hu2I5BiGwFL+NaLJBtgpfwewUjTsCPQOm20cM5bhFCMhw1YFD2lxrxzmUGlh+xaLVAE4jW0YQIh",
-    "mnos+J7QujozSIq5iyqkdHxfkdxXb5BpkjwRQuMZIQhWgwKlfOfINqbKBhGi0kk61LExhGoMbQT",
-    "3VM7w2EnKANnYtZpe2spHghoawj4lZQ5rk6ujdZ4SZgjLHqo/xg+5xqjDLuvFFrI2fjcABCSIIb",
-    "eWkDE4wzyKBoq9Y2ZJ/hNoOqZ7UQAWSJkUjyWBCx6JrrdSZJHDKB1yMeEOK2M86rxV+BYBZg0hO",
-    "eb+CJVxOGih8MaklXHTS7O7a5Fg7E83IufWNr4BjNbS62q6BBBhVdY4tMgq0DdanP2ETwxVVGgv",
-    "1ZFrqp3XP9u9fe5f9+86S/v29hf79ZrYPDu53QyX6tJsw1r2XRNl9S+/OAr0bBeaBIjjvCu6S3+",
-    "z86QK+tISvt3DO89srP/v8To5fGa+UcFnc4QLuXW81bjez2dO/Wnufx7+c/V767XH7+z/21vEvX",
-    "eFfSv9b3Pia27y1n+0/mvVN8yw9vJLIivjDBzl/sHslzYP7caXTetiJ2t+MHty9YAdPaD2l92t5",
-    "tbzXcvLOrt+2vRoGcZoTZNAMs7nN7omZzhOW/sMFeXfX2GNvwZ8878/H2+E/Oczjl9nres5edj8",
-    "MuzidDJ7x35enx/ub63HxPPW4fbgdfsq/vUaPWzk9bqWzSJfYigPd5Zltv2DeWBW3rjjvP8a9Ln",
-    "K+scuL169I3d7ZEFd+gX3C88Rtq59rP/K6P39nRd71cs/ffIX1WJXvXfrSV02vp55b3/hxtv9y/",
-    "l2kGlEWLpnMsts4PPWW3f2f+Pffjvab9cl1a7/sA/oP9444YRMcxaajbna5Le130PktCUQtn3df",
-    "Rj2ZnQ/X9FU3cvFt9yPKQzFSn909+OJgm/r0D5lhINs=",
+    "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",
     ""
   };
 
-  static char newstr [1545] = "";
+  static char newstr [1553] = "";
   newstr[0] = '\0';
   for (i = 0; i < 22; i++) {
     strcat(newstr, encStrCodegen[i]);
@@ -844,10 +844,10 @@ static void mdlSetWorkWidths_c24_dsogi_pll_3ph(SimStruct *S)
 {
   const char* newstr = sf_c24_dsogi_pll_3ph_get_post_codegen_info();
   sf_set_work_widths(S, newstr);
-  ssSetChecksum0(S,(156235736U));
-  ssSetChecksum1(S,(1451846959U));
-  ssSetChecksum2(S,(1070989791U));
-  ssSetChecksum3(S,(166287696U));
+  ssSetChecksum0(S,(868422138U));
+  ssSetChecksum1(S,(1887054351U));
+  ssSetChecksum2(S,(1419135630U));
+  ssSetChecksum3(S,(3605148920U));
 }
 
 static void mdlRTW_c24_dsogi_pll_3ph(SimStruct *S)

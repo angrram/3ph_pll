@@ -126,7 +126,7 @@ static void mdl_terminate_c22_dsogi_pll_3ph(SFc22_dsogi_pll_3phInstanceStruct
 {
   const emlrtLocationLoggingFileInfoType c22_emlrtLocationLoggingFileInfo = {
     "#dsogi_pll_3ph:482",              /* mexFileName */
-    "Sun May 26 16:51:40 2024",        /* timestamp */
+    "Tue Jun  4 19:57:57 2024",        /* timestamp */
     "",                                /* buildDir */
     1,                                 /* numFcns */
     256                                /* numHistogramBins */
@@ -539,10 +539,10 @@ static void init_simulink_io_address(SFc22_dsogi_pll_3phInstanceStruct
 /* SFunction Glue Code */
 void sf_c22_dsogi_pll_3ph_get_check_sum(mxArray *plhs[])
 {
-  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(3209809220U);
-  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(2340480658U);
-  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(1189901613U);
-  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(3949055942U);
+  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(608836927U);
+  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(665658627U);
+  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(2953139821U);
+  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(3853667228U);
 }
 
 mxArray *sf_c22_dsogi_pll_3ph_third_party_uses_info(void)
@@ -595,7 +595,7 @@ static const mxArray *sf_get_sim_state_info_c22_dsogi_pll_3ph(void)
 
 static const char* sf_get_instance_specialization(void)
 {
-  return "sSSqk4AEasmNCG7ghwjQpnC";
+  return "smRes4pCJSih7Y3rw6EiNnG";
 }
 
 static void sf_opaque_initialize_c22_dsogi_pll_3ph(void *chartInstanceVar)
@@ -696,31 +696,31 @@ const char* sf_c22_dsogi_pll_3ph_get_post_codegen_info(void)
 {
   int i;
   const char* encStrCodegen [22] = {
-    "eNrtWN1u40QUdqJSsWKpisSPYJFYiRtukKDLir1AbFsnWSK124DTIi0X1dQ+sYeMZ9z5SRrEQyC",
-    "eYh+JV+COG6S95IztpMENiSdhYRfhynXG9jffOWfO39hrdI89PHbw/Oldz9vG66t4Nr3ieKUcN+",
-    "bO4v6W90U5/vE1zwtFBDHwwAwG9MpzO7hJe0SSVHnuBycpfANKMKOp4F0+EPWxlA9AAg9xgkxI7",
-    "cSraGoY5cOO4aFlVt8mNEyCRBgWHeKEJDrhbPJXvJnRPWRsUQmh7gBEOpHCxEmHkXi5FaQe+wmE",
-    "Q2VSZ1sp0IHJrKrq2DBNMwbtKwi7XGmCVlAr9A000eDrKzcjW31VMEWLNGOU8Pq2TogKIEPv0HC",
-    "aRfj/xGi0Xi1smBCpDyEhI1BHdJizCw612KnCty8oJ1pISlg7Zb6draa+PYY6HmNIMNc1Qn0PJZ",
-    "BhJijXjgERdNDObU4uGLTgwsSOvAFcGhsNZxTGIN3Wd+CLEUgSwwl3kzlfo/ZV7pSzWKqJ1TSFM",
-    "yIPQvRdBZFb3sCgUwFBd4Q+TuOEhdzEXdWXdIS+4Zrrujb818p1Ji28X62FzXnbI3D2qxlvJ+Q+",
-    "YUy5YfsiO4IRsJy/RTRZA1vwO4CVolFfoHfYbOOYsQynGAkl1hc8ovW9clRB5YXtMRapGnCa2jC",
-    "ACM08E3020ao4MkqL1MeU0zo6qsl3E9vlGuSAhFC7xkhCFaDAuV858kZU2UBCNFpJ51rWnqGIwb",
-    "WgnhoY3hoLOUQbuxaza1vZSHBDQxRjYtaQJ7k2evcZYaamzKmKMX7QPU4VZlk3XsTa+FkLHJIwg",
-    "chWTsrgGPMsTlB3iZUt+Qeo7YjqSQtUKGlWN5IMJnQsutZK/UkGp3zIxZh3pEiDsvNa4lcAmDWI",
-    "5JTHh1jC5aSDwteTWsJlP8/urk2OtTPRjFxY33gEHKuh1dV2DSTEqGpzbJFRoE2wAf0BmxiuqNJ",
-    "YqCdFqS/qnu3fv/Ku+/etBf37G3P9+245Dvf2ziMlYnqeMXZ+L0vK53a+T+bmu11jP1AH593AXf",
-    "NNrx/N4RsLeL25a5XvVvPP7zcrfE38azQK3P4c7vUKz1YFt13a7P572w+evvXdw99//vDt7Nfmk",
-    "1X8jRv8jfy3xT1tuu23dsrx+9O+aZalRzcSWR1/eKfiD3asguBy+NlBm6j0sf/o8zgZf/91xv18",
-    "vmeN5fI2K/JO79+1vRoGcZ4TZNiNyn2bHRNT7Cfs/A/m5N1eYY9bc/7keb893Az/5n51HbdW4Hf",
-    "xV1jx2/X57+5vhi/4eyvkv1NZ7zt5735ObIaG88WZYKdmnC3zc1ec9w/jXhY5/7fL89evTp1rro",
-    "lrPMe6+nfiNtXPtX6/7O8vqxte5f3dF1iPZfnepY970fT6xXPrsz4ox1/OviP4CWXRgp1M+Rg3G",
-    "4NFT/8j/v3M0X7TvrJt7Vd+cH5y74ATNsGtS7E1LG/3pP1uOHskgajF+8N/o55Mr/sr+qrblfi2",
-    "4zHlkRirjz/du7+3SX36A4F7F2M=",
+    "eNrtWM1v40QUd6JSsWKpCkJaoUVij0gICVq+DqslbT5KULuNcFq0XKKp/RKPMp5x5yNpENw58md",
+    "w5l/gyhWJE38DEpcVJ97YThrckHgSFnbRunKdsf2b33tv3tfYq7RPPDx28Pzudc/bxuuLeFa97H",
+    "ghH1fmzuz+lnc/H3/9kucFIoQBcN/0+/TKczu4iTtEklh57gcnMXwOSjCjqeBt3hflsZT3QQIPc",
+    "IJESO3Eq2hsGOXDluGBZVZfRDSI/EgYFh7ihCQ85Wzyd7yJ0R1kbFAJgW4BhDqSwgyiFiOD5VaQ",
+    "elyPIBgqEzvbSoH2TWJVVSeGaZowaF5B0OZKE7SCWqGvr4mGur5yM7LVV/lTtIgTRgkvb+uIKB8",
+    "S9A4NZ0mI/0+NRuuVwgYRkfoQIjICdUyHKbvgUIqdKnz7gnKihaSENWNWt7OV1LfDUMcTDAnmuk",
+    "ao76EEMkwE5doxIPwW2rnJyQWDBlyYgSOvD5fGRsM5hTFIt/Xt18UIJBnAKXeTOV2j5lXqlLNYK",
+    "onVNIZzIg8C9F0FoVvewKBTPkF3hC5O44SF1MRt1ZV0hL7hmuvaNvzXynUmzrxfrYVNeZsjcPar",
+    "GW8r4HXCmHLDdkVyDCNgKX+DaLIGNuN3ACtFw65A77DZxjFjGU4xEnJsXfCQlvfKUQGVFraHWKR",
+    "KwGlswwBCNPNM9NlEq+LIKC3iOqacxvFxSb6b2DbXIPskgNI1RhKqAAVO/cqRN6TKBhKi0Uo61b",
+    "L0DFkMrgX1VN/wxljIIdrYtZhd28pGghsawgEmZg1pkmuid58TZkrKHKsBxg+6x5nCLOvGi1gbP",
+    "2uBAxJEENrKSRmcYJ7FCcousbIl/wC1HVE9aYAKJE3KRpLBhI5F11qpO0ngjA+5GPOWFLGfd15L",
+    "/AoAswaRnPLBIZZwOWmh8OWklnDZTbO7a5Nj7Uw0IxfWN46AYzW0utqugQQYVU2OLTIKtAnWp19",
+    "hE8MVVRoL9SQr9Vnds/37p951/761oH9/Za5/383Hwd5eL1RiQHsJY739JMqf2/nenZvvdon9QB",
+    "mcdwN3zTe9vjWHryzg9eauRb5b1b++Xy3wVfGvUslwtTncywWerQJuO7fZ27Vfv71z+ccPj179+",
+    "Zvfj376cRV/5QZ/Jf1tcd9X3fZbO/n4jWnfNMvSoxuJrIw/3Cn4gx2rGHdT7yf1z3waffRoX44/",
+    "bNKH/Cid73FlubzVgrzT+/dsr4ZBnOYEGbTDfN9mx8Rk+wk7/8dz8m6vsMetOX/yvN8+2Qz/Wq2",
+    "4jlsr8Lv4Kyj47fr892qb4TP+zgr57xbW+27au/eIzdDQW5wJdkrG2TI/d8V5/zLuWZHzuV2evH",
+    "5l6lx1TVzlCdbVfxK3qX6u9ftZf39Z3fAK7+8+xXosy/cufdzTptcvnluf9WY+fjD7jlCPKAsX7",
+    "GTyx7jZ6C96+j/x78eO9pv2lU1rv/yD85f7B5ywCW5dsq1hfrsj7XfD2SMJRC3eH/4X9WR6ra3o",
+    "q24X4tuOx5SHYqzeeW/vg71N6tOfDVgaZg==",
     ""
   };
 
-  static char newstr [1529] = "";
+  static char newstr [1537] = "";
   newstr[0] = '\0';
   for (i = 0; i < 22; i++) {
     strcat(newstr, encStrCodegen[i]);
@@ -733,10 +733,10 @@ static void mdlSetWorkWidths_c22_dsogi_pll_3ph(SimStruct *S)
 {
   const char* newstr = sf_c22_dsogi_pll_3ph_get_post_codegen_info();
   sf_set_work_widths(S, newstr);
-  ssSetChecksum0(S,(939924021U));
-  ssSetChecksum1(S,(1062933928U));
-  ssSetChecksum2(S,(371430133U));
-  ssSetChecksum3(S,(1510140272U));
+  ssSetChecksum0(S,(2296266795U));
+  ssSetChecksum1(S,(3002757399U));
+  ssSetChecksum2(S,(2111115865U));
+  ssSetChecksum3(S,(3284944883U));
 }
 
 static void mdlRTW_c22_dsogi_pll_3ph(SimStruct *S)
