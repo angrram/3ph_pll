@@ -15,8 +15,9 @@
 
 - [x]  Angle Lock
 - [x]  Phase Swap Detection
-- [ ]  Realtime Phase Fault Detection
-- [ ]  Generated Code
+- [x]  Realtime Phase Fault Detection
+- [x]  Generated Code
+- [x]  Code Tested on STM32F7 (code on stm32.zip)
 
 ## Demo
 
