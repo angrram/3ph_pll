@@ -7,8 +7,7 @@
 
 
 ![Static Badge](https://img.shields.io/badge/Matlab2023a-Requiered-red)
-![Static Badge]([https://img.shields.io/badge/Matlab2023a-Requiered-red](https://img.shields.io/badge/build-STM32F7?style=flat&label=STM32F7
-))
+![Static Badge](https://img.shields.io/badge/build-STM32F7?style=flat&label=STM32F7)
 
 
 
