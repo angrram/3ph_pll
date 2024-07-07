@@ -1,0 +1,24 @@
+This file is the manifest for the generated code from model 'dsogi_pll_3ph_top'.
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\dsogi_pll_3ph_top\dsogi_pll_3ph_top.c
+C:\Program Files\MATLAB\R2023a\rtw\c\src\common\rt_main.c
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\dsogi_pll_3ph_top\dsogi_pll_3ph_top.h
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\dsogi_pll_3ph_top\dsogi_pll_3ph_top_private.h
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\dsogi_pll_3ph_top\dsogi_pll_3ph_top_types.h
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\dsogi_pll_3ph_top\rtmodel.h
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_ref\dsogi_pll_3ph\dsogi_pll_3ph.h
+C:\Program Files\MATLAB\R2023a\rtw\c\src\ext_mode\common\ext_work.h
+C:\Program Files\MATLAB\R2023a\rtw\c\src\rt_logging.h
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_ref\dsogi_pll_3ph\dsogi_pll_3ph_types.h
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_shared\complex_types.h
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_shared\rt_nonfinite.h
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_shared\rtwtypes.h
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_ref\dsogi_pll_3ph\buildInfo.mat
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_ref\dsogi_pll_3ph\dsogi_pll_3ph.c
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_shared\rtGetInf.h
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_shared\rtGetNaN.h
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_ref\dsogi_pll_3ph\dsogi_pll_3ph_private.h
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_shared\buildInfo.mat
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_shared\rtGetInf.c
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_shared\rtGetNaN.c
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_shared\rt_nonfinite.c
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\dsogi_pll_3ph_top\dsogi_pll_3ph_top_manifest.txt

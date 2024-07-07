@@ -1,0 +1,8 @@
+﻿-IC:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim
+-IC:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\slprj\ert\dsogi_pll_3ph
+-I"C:\Program Files\MATLAB\R2023a\extern\include"
+-I"C:\Program Files\MATLAB\R2023a\simulink\include"
+-I"C:\Program Files\MATLAB\R2023a\rtw\c\src"
+-I"C:\Program Files\MATLAB\R2023a\rtw\c\src\ext_mode\common"
+-I"C:\Program Files\MATLAB\R2023a\rtw\c\ert"
+-IC:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\slprj\ert\_sharedutils
