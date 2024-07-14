@@ -21,19 +21,20 @@
 - [x]  Code Tested on STM32F7 (code on stm32.zip)
 
 ## Demo
-
-![image](https://github.com/angrram/3ph_pll/assets/128910194/d00f35f6-ec75-408a-b1b8-1f96d0c911b4)
-
-
 Worse case, when the phase of the Voltage phase is pi radians of offset at the start, thus having the maximum error. 
 
+65Hz input 
+![image](https://github.com/user-attachments/assets/7559c034-e5eb-44b9-83ff-a9a808543a0d)
 
-![image](https://github.com/angrram/3ph_pll/assets/128910194/d4753abb-f6c8-4929-9be5-ff9a256c85fd)
+55Hz input
+![image](https://github.com/user-attachments/assets/7c88165c-4e5b-4e19-8780-866d3a438f46)
 
-Angle Output at the worst case.
+45Hz input
+![image](https://github.com/user-attachments/assets/5316a938-6ae5-4108-a774-b37587ab0b86)
 
 
-![image](https://github.com/angrram/3ph_pll/assets/128910194/46e1418f-76f1-4def-92e0-8f7b7807e2ae)
+
+
 
 ## Authors
 
