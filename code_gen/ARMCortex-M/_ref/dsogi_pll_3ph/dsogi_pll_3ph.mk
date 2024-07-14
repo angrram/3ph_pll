@@ -2,7 +2,7 @@
 ## Makefile generated for component 'dsogi_pll_3ph'. 
 ## 
 ## Makefile     : dsogi_pll_3ph.mk
-## Generated on : Wed Jul 03 18:30:45 2024
+## Generated on : Sun Jul 14 17:36:56 2024
 ## Final product: .\dsogi_pll_3ph_rtwlib.lib
 ## Product type : static library
 ## 
@@ -192,7 +192,7 @@ DEFINES = $(DEFINES_BUILD_ARGS) $(DEFINES_CUSTOM) $(DEFINES_OPTS) $(DEFINES_STAN
 ## SOURCE FILES
 ###########################################################################
 
-SRCS = $(START_DIR)\ARMCortex-M\_ref\dsogi_pll_3ph\dsogi_pll_3ph.c
+SRCS = $(START_DIR)\ARMCortex-M\_ref\dsogi_pll_3ph\dsogi_pll_3ph.c $(START_DIR)\ARMCortex-M\_ref\dsogi_pll_3ph\dsogi_pll_3ph_data.c
 
 ALL_SRCS = $(SRCS)
 
@@ -200,7 +200,7 @@ ALL_SRCS = $(SRCS)
 ## OBJECTS
 ###########################################################################
 
-OBJS = dsogi_pll_3ph.obj
+OBJS = dsogi_pll_3ph.obj dsogi_pll_3ph_data.obj
 
 ALL_OBJS = $(OBJS)
 
@@ -350,6 +350,10 @@ $(PRODUCT) : $(OBJS) $(PREBUILT_OBJS)
 
 dsogi_pll_3ph.obj : "$(START_DIR)\ARMCortex-M\_ref\dsogi_pll_3ph\dsogi_pll_3ph.c"
 	$(CC) $(CFLAGS) -Fo"$@" "$(START_DIR)\ARMCortex-M\_ref\dsogi_pll_3ph\dsogi_pll_3ph.c"
+
+
+dsogi_pll_3ph_data.obj : "$(START_DIR)\ARMCortex-M\_ref\dsogi_pll_3ph\dsogi_pll_3ph_data.c"
+	$(CC) $(CFLAGS) -Fo"$@" "$(START_DIR)\ARMCortex-M\_ref\dsogi_pll_3ph\dsogi_pll_3ph_data.c"
 
 
 ###########################################################################

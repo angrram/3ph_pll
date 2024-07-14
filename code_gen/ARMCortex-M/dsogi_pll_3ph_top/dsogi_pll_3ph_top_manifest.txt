@@ -14,6 +14,7 @@ C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_shared\rt_nonfini
 C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_shared\rtwtypes.h
 C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_ref\dsogi_pll_3ph\buildInfo.mat
 C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_ref\dsogi_pll_3ph\dsogi_pll_3ph.c
+C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_ref\dsogi_pll_3ph\dsogi_pll_3ph_data.c
 C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_shared\rtGetInf.h
 C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_shared\rtGetNaN.h
 C:\Users\ASUSTUF\Desktop\sim\pll\3ph\sim\code_gen\ARMCortex-M\_ref\dsogi_pll_3ph\dsogi_pll_3ph_private.h
