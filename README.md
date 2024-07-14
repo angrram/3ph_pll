@@ -19,6 +19,7 @@
 - [x]  Realtime Phase Fault Detection
 - [x]  Generated Code
 - [x]  Code Tested on STM32F7 (code on stm32.zip)
+- [x]  Not using Volder's algorithm instead using approximations requiering a sampling of 10kHz  
 
 ## Demo
 Worse case, when the phase of the Voltage phase is pi radians of offset at the start, thus having the maximum error. 
